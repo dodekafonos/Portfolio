@@ -1,4 +1,6 @@
 
+import cardImage from "../assets/commie_tux.png"
+
 function Card() {
 
   return (
@@ -7,7 +9,7 @@ function Card() {
         <div className="card bg-base-100 w-96 shadow-xl">
         <figure className="px-10 pt-10">
             <img
-            src="src\assets\commie_tux.png"
+            src={cardImage}
             alt="Shoes"
             className="rounded-xl" />
         </figure>
