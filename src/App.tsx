@@ -2,6 +2,9 @@
 import './App.css'
 import './index.css'
 import Header from "./components/Header";
+import Card from './components/Card';
+// import Diff from './components/Diff';
+import Hero from './components/Hero';
 
 function App() {
 
@@ -13,8 +16,15 @@ function App() {
 
       <Header></Header>
 
-      <h1 className="pt-4 text-primary">Hello. My name is Jonas.</h1>
-      <h1 className='text-primary'>And this is my Portfolio.</h1>
+      {/* <Diff></Diff> */}
+
+      <Hero></Hero>
+
+      <div className="flex">
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      </div>
 
     </div>
 

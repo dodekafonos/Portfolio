@@ -1,4 +1,10 @@
 import ThemeToggle from "./ThemeToggle";
+import LangToggle from './LangToggle';
+
+import { FaLinkedin } from "react-icons/fa";
+import { IoIosDocument } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+
 import "../index.css"
 
 function Header() {
@@ -8,32 +14,25 @@ function Header() {
 
         <div className="navbar bg-base-100">
         <div className="navbar-start">
-            <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h7" />
-                </svg>
-            </div>
-            <ul
-                tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a>Homepage</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>About</a></li>
-            </ul>
-            </div>
+          <LangToggle></LangToggle>
+        {/* <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+        <div className="w-10 rounded-full">
+          <img
+            alt="Tailwind CSS Navbar component"
+            src="src\assets\perfil_jonas_opt_quadrado.png" />
+        </div>
+      </div> */}
         </div>
         <div className="navbar-center">
-            <a className="btn btn-ghost text-xl">Get in touch</a>
+            <div className="tooltip" data-tip="Github">
+                <a  className="btn btn-ghost text-xl"><FaGithub /></a>
+            </div>
+            <div className="tooltip" data-tip="LinkedIn">
+            <a className="btn btn-ghost text-xl"><FaLinkedin /></a>
+            </div>
+            <div className="tooltip" data-tip="Curriculum">
+            <a className="btn btn-ghost text-xl"><IoIosDocument /></a>
+            </div>
         </div>
         <div className="navbar-end">
 
