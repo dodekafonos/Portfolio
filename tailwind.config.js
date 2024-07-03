@@ -12,6 +12,6 @@ module.exports = {
   ],
   daisyui: {
     styled: true,
-    themes: ["light", "dark", "dracula", "coffee", "sunset"],
+    themes: ["light", "dark", "dracula", "coffee", "sunset", "cupcake"],
   },
 }
