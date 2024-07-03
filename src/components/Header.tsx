@@ -24,14 +24,14 @@ function Header() {
       </div> */}
         </div>
         <div className="navbar-center">
-            <div className="tooltip" data-tip="Github">
-                <a  className="btn btn-ghost text-xl"><FaGithub /></a>
+            <div className="tooltip tooltip-bottom" data-tip="Github">
+                <a href="https://github.com/dodekafonos/" target="_blank" className="btn btn-ghost text-xl"><FaGithub /></a>
             </div>
-            <div className="tooltip" data-tip="LinkedIn">
-            <a className="btn btn-ghost text-xl"><FaLinkedin /></a>
+            <div className="tooltip tooltip-bottom" data-tip="LinkedIn">
+            <a href="https://www.linkedin.com/in/jonas-alves/" target="_blank" className="btn btn-ghost text-xl"><FaLinkedin /></a>
             </div>
-            <div className="tooltip" data-tip="Curriculum">
-            <a className="btn btn-ghost text-xl"><IoIosDocument /></a>
+            <div className="tooltip tooltip-bottom" data-tip="Curriculum">
+            <a href="https://www.linkedin.com/in/jonas-alves/" target="_blank" className="btn btn-ghost text-xl"><IoIosDocument /></a>
             </div>
         </div>
         <div className="navbar-end">
