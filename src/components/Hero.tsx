@@ -13,8 +13,10 @@ function Hero() {
           <div>
             <h1 className="text-5xl font-bold">Hello World 🚩</h1>
             <p className="py-6 text-justify">
-              I'm Jonas Alves, an all-round developer based in São José dos Campos, Brazil.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corporis eum quas fugiat, tempore animi harum iusto ex quia nobis temporibus pariatur dolore velit asperiores neque dolor minus omnis numquam?
+            I'm a 27 years old coffee-powered bug crafter, currently studying System Analysis and Development at Fatec.
+
+🔭 Currently working on a Project Management SPA for my undergratuate course using React and ElephantDB.
+🌱 Currently learning about Typescript, algorithms and Data Structures.
             </p>
             <button className="btn btn-primary">Contact me</button>
           </div>
