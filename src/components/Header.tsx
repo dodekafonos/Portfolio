@@ -30,7 +30,7 @@ function Header() {
             <div className="tooltip tooltip-bottom" data-tip="LinkedIn">
             <a href="https://www.linkedin.com/in/jonas-alves/" target="_blank" className="btn btn-ghost text-xl"><FaLinkedin /></a>
             </div>
-            <div className="tooltip tooltip-bottom" data-tip="Curriculum">
+            <div className="tooltip tooltip-bottom" data-tip="Resume">
             <a href="https://www.linkedin.com/in/jonas-alves/" target="_blank" className="btn btn-ghost text-xl"><IoIosDocument /></a>
             </div>
         </div>

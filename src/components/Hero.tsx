@@ -13,12 +13,26 @@ function Hero() {
           <div>
             <h1 className="text-5xl font-bold">Hello World 🚩</h1>
             <p className="py-6 text-justify">
-            I'm a 27 years old coffee-powered bug crafter, currently studying System Analysis and Development at Fatec.
-
-🔭 Currently working on a Project Management SPA for my undergratuate course using React and ElephantDB.
-🌱 Currently learning about Typescript, algorithms and Data Structures.
+            I'm a 28 years old coffee-powered bug crafter, almost done with my undergrad studies in System Analysis and Development at 
+            
+            <strong>
+            <a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank"> Fatec. </a>
+            </strong>
+            
+            I'm also a development internet at 
+            <strong>
+            <a href="https://opt.com.br/" target="_blank"> OPT.</a>
+            </strong>
+            
+            
+            <p className='mt-4'>
+            🔭 Currently working on a mobile application for my undergratuate course using React Native and on some GIS scripts;
+            <br />
+            🌱 Currently learning about React Native, Geoprocessing and Infrastructure.
             </p>
-            <button className="btn btn-primary">Contact me</button>
+
+            </p>
+            <button className="btn btn-primary">Reach out!</button>
           </div>
         </div>
       </div>

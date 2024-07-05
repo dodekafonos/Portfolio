@@ -11,12 +11,12 @@ interface CardProps {
 // Use the props within the component
 const Card: React.FC<CardProps> = ({ image, name, description, url }) => {
   return (
-    <div className="card bg-base-100 w-96 shadow-xl">
-      <figure className="px-10 pt-10">
+    <div className="card bg-base-100 max-w-96 shadow-xl">
+      <figure className="px-2 pt-10">
         <img
           src={image}
           alt={name}
-          className="rounded-xl"
+          className="h-48 w-96 object-cover rounded-xl"
         />
       </figure>
       <div className="card-body items-center text-center">
